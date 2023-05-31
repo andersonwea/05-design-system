@@ -3,8 +3,15 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "dependencies": {
     "@storybook/manager-api": "^7.0.18",
     "@storybook/theming": "^7.0.18"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0"
   }
 }
