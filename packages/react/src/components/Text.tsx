@@ -30,6 +30,6 @@ export const Text = styled('p', {
   },
 })
 
-export interface TetxProps extends ComponentProps<typeof Text> {
+export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType
 }
