@@ -16,5 +16,11 @@ const config = {
     addDocsPanel: true,
     autodocs: 'tag',
   },
+  viteFinal: (config, {configType}) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/05-design-sytem/'
+    }
+    return config
+  }
 };
 export default config;
