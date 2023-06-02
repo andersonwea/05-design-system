@@ -9,7 +9,7 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/addon-a11y"
   ],
-  "framework": "@storybook/react",
+  "framework": "@storybook/react-vite",
   "core": {
     "builder": "@storybook/builder-vite"
   },
