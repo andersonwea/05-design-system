@@ -1,4 +1,5 @@
-/** @type { import('@storybook/react').Preview } */
+// /** @type { import('@storybook/react').Preview } */
+import {Preview} from '@storybook/react'
 import { themes } from '@storybook/theming';
 
 const preview = {

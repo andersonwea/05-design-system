@@ -1,4 +1,5 @@
-/** @type { import('@storybook/react-vite').StorybookConfig } */
+// /** @type { import('@storybook/react-vite').StorybookConfig } */
+import {StorybookConfig} from '@storybook/react-vite'
 const config = {
   stories: ["../src/pages/**/*.mdx", "../src/stories/**/*.stories.tsx"],
   addons: [
